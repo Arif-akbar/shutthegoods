@@ -1,0 +1,35 @@
+<h2 class="display-2 text-capitalize">
+                        <span class="fw-medium">Temukan </span>Harta Karun
+                        <span class="fw-medium text-warning" id="fashionUnikText">Fashion Unik</span>
+                    </h2>
+
+                    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const textElement = document.getElementById('fashionUnikText');
+            const originalText = textElement.textContent; // Simpan teks asli: "Fashion Unik"
+            let charIndex = 0;
+
+            const typingSpeed = 100; // Kecepatan mengetik per huruf (ms)
+            const pauseAfterComplete = 1500; // Jeda setelah selesai mengetik, sebelum mengulang (ms)
+
+            // Fungsi untuk memulai proses pengetikan
+            function typeText() {
+                if (charIndex < originalText.length) {
+                    // Ketik huruf satu per satu
+                    textElement.textContent += originalText.charAt(charIndex);
+                    charIndex++;
+                    setTimeout(typeText, typingSpeed);
+                } else {
+                    // Jika teks sudah selesai diketik, jeda sebentar lalu mulai ulang
+                    setTimeout(() => {
+                        textElement.textContent = ''; // Hapus teks secara instan
+                        charIndex = 0; // Reset index karakter
+                        typeText(); // Mulai mengetik lagi dari awal
+                    }, pauseAfterComplete);
+                }
+            }
+
+            // Memulai efek mengetik pertama kali
+            typeText();
+        });
+    </script>

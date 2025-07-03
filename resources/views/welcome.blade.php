@@ -373,7 +373,7 @@
                 <div class="col-lg-5 py-5 my-5">
                     <h2 class="display-2 text-capitalize">
                         <span class="fw-medium">Temukan </span>Harta Karun
-                        <span class="fw-medium text-primary">Fashion Unik</span>
+                        <span class="fw-medium text-warning" id="fashionUnikText">Fashion Unik</span>
                     </h2>
                     <p class="fs-5">
                         Setiap pakaian punya cerita. Jelajahi ribuan koleksi pre-loved,
@@ -1851,6 +1851,7 @@
             });
         });
     </script>
+ 
 </body>
 
 </html>
