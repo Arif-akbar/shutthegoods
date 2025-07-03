@@ -1,0 +1,41 @@
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-menu">
+                        {{-- Ganti src ini dengan path logo Anda yang benar menggunakan asset() --}}
+                        <img src="{{ asset('images/logo.svg') }}" width="300" height="190"
+                            alt="logo" />
+                        <div class="social-links mt-3">
+                            <ul class="d-flex list-unstyled gap-2">
+                                <li>
+                                    <a href="https://www.facebook.com/share/g/1DaGWBdpjE/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light"><svg width="16" height="16">
+    <use xlink:href="#facebook"></use>
+</svg></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.tiktok.com/@shutthegoods.co" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-tiktok"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://youtu.be/rOBdlb_amzk?si=TcUg2K9PMOUSF6kI" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light"><svg width="16" height="16">
+    <use xlink:href="#youtube"></use>
+</svg></a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/62895635988235" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+</a>
+                                </li>
+                                <li>
+                                   <a href="https://www.instagram.com/shutthegoods.co" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light"><svg width="16" height="16">
+                                    <use xlink:href="#instagram"></use>
+                                    </svg></a>
+                                </li>
+                                <li>
+                                    <a href="https://shopee.co.id/shutthegoods.co" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-shopify"></i>
+</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
