@@ -454,6 +454,33 @@
         </div>
     </section>
 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategori Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <style>
+        /* Beberapa styling dasar untuk memastikan tombol terlihat */
+        .btn-yellow {
+            background-color: yellow;
+            border-color: yellow;
+            color: black;
+            margin: 0 5px; /* Memberi sedikit jarak antar tombol */
+        }
+        .category-carousel-prev, .category-carousel-next {
+            cursor: pointer;
+        }
+        /* Tambahkan CSS untuk lebar slide agar beberapa slide terlihat sekaligus */
+        .category-carousel .swiper-slide {
+            width: 300px; /* Sesuaikan lebar slide sesuai kebutuhan */
+        }
+    </style>
+</head>
+<body>
+
     <section id="kategori" class="section-padding overflow-hidden">
         <div class="container-lg">
             <div class="row">
@@ -462,14 +489,7 @@
                         <h2 class="section-title text-capitalize">Kategori</h2>
 
                         <div class="d-flex align-items-center">
-                            <div class="swiper-buttons">
-                                <button class="swiper-prev category-carousel-prev btn btn-yellow">
-                                    ❮
-                                </button>
-                                <button class="swiper-next category-carousel-next btn btn-yellow">
-                                    ❯
-                                </button>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -503,12 +523,72 @@
                                 <img src="images/category-thumb-5.jpg" class="img-fluid" alt="Thumbnail Kategori" />
                                 <h4 class="fs-6 mt-3 fw-normal category-title">Jaket</h4>
                             </a>
+                            <a href="category.html" class="nav-link swiper-slide text-center">
+                                <img src="images/category-thumb-1.jpg" class="img-fluid" alt="Thumbnail Kategori" />
+                                <h4 class="fs-6 mt-3 fw-normal category-title">Topi</h4>
+                            </a>
+                            <a href="category.html" class="nav-link swiper-slide text-center">
+                                <img src="images/category-thumb-2.jpg" class="img-fluid" alt="Thumbnail Kategori" />
+                                <h4 class="fs-6 mt-3 fw-normal category-title">Kaos Kaki</h4>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const categorySwiper = new Swiper('.category-carousel', {
+                // Konfigurasi umum
+                loop: true, // Untuk membuat carousel berputar tanpa henti
+                slidesPerView: 3, // Berapa banyak slide yang terlihat sekaligus
+                spaceBetween: 50, // Jarak antar slide
+
+                // Autoplay
+                autoplay: {
+                    delay: 1800, // Durasi (dalam ms) antara transisi slide
+                    disableOnInteraction: false, // Jangan hentikan autoplay saat user berinteraksi
+                },
+
+                // Navigasi (panah prev/next)
+                navigation: {
+                    nextEl: '.category-carousel-next',
+                    prevEl: '.category-carousel-prev',
+                },
+
+                // Breakpoints untuk responsivitas
+                breakpoints: {
+                    // Ketika lebar viewport minimal 576px
+                    576: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                    },
+                    // Ketika lebar viewport minimal 768px
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+                    // Ketika lebar viewport minimal 992px
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 40,
+                    },
+                    // Ketika lebar viewport minimal 1200px (atau sesuai container-lg)
+                    1200: {
+                        slidesPerView: 3,
+                        spaceBetween: 50,
+                    }
+                },
+            });
+        });
+    </script>
+</body>
+</html>
 
     <section id="new-arrivals" class="section-padding pt-0">
         <div class="container-lg">
