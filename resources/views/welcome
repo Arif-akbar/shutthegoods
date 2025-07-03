@@ -1,0 +1,293 @@
+<section id="tips-trik" class="section-padding pt-0">
+        <div class="container-lg">
+            <div class="row">
+                <div class="section-header d-flex align-items-center justify-content-between my-4">
+                    <h2 class="section-title text-capitalize">Tips & Trik Thrifting</h2>
+                    <a href="#" class="btn btn-primary" id="lihatSemuaTips">Lihat Semua</a>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <article class="post-item card border-0 rounded-0">
+                        <div class="image-holder zoom-effect">
+                            <a href="#"><img src="images/merawat.jpg" alt="post"
+                                    class="card-img-top" /></a>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                                <div class="meta-date"><a href="#"
+                                        class="text-secondary text-decoration-none">29 Juni 2025</a></div>
+                                <div class="meta-categories"><a href="#"
+                                        class="text-secondary text-decoration-none">tips & trik</a>
+                                </div>
+                            </div>
+                            <div class="post-header">
+    <h3 class="post-title mt-3">
+        <a href="https://www.google.com/search?q=5+Cara+Merawat+Pakaian+Vintage+Agar+Awet"
+            target="_blank" rel="noopener noreferrer"
+            class="text-decoration-none text-capitalize">5 Cara Merawat
+            Pakaian Vintage Agar Awet</a>
+    </h3>
+    <p>Pakaian vintage butuh perawatan khusus. Ikuti tips ini agar koleksi berhargamu tetap
+        dalam kondisi
+        prima.</p>
+</div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="post-item card border-0 rounded-0">
+                        <div class="image-holder zoom-effect">
+                            <a href="#"><img src="images/tips.jpg" alt="post"
+                                    class="card-img-top" /></a>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                                <div class="meta-date"><a href="#"
+                                        class="text-secondary text-decoration-none">28 Juni 2025</a></div>
+                                <div class="meta-categories"><a href="#"
+                                        class="text-secondary text-decoration-none">tren</a></div>
+                            </div>
+                            <div class="post-header">
+                                <h3 class="post-title mt-3"><a href="https://www.google.com/search?q=Cara+Foto+Produk+Thrift+Agar+Cepat+Laku" target="_blank" rel="noopener noreferrer"
+                                        class="text-decoration-none text-capitalize">Cara Foto Produk
+                                        Thrift Agar Cepat Laku</a></h3>
+                                <p>Tingkatkan penjualanmu dengan teknik fotografi produk yang menarik perhatian pembeli.
+                                    Mudah dan bisa
+                                    pakai HP!</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="post-item card border-0 rounded-0">
+                        <div class="image-holder zoom-effect">
+                            <a href="#"><img src="images/mix.jpg" alt="post"
+                                    class="card-img-top" /></a>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                                <div class="meta-date"><a href="#"
+                                        class="text-secondary text-decoration-none">27 Juni 2025</a></div>
+                                <div class="meta-categories"><a href="#"
+                                        class="text-secondary text-decoration-none">Inspirasi Gaya</a>
+                                </div>
+                            </div>
+                            <div class="post-header">
+                                <h3 class="post-title mt-3"><a href="https://www.google.com/search?q=Mix+&+Match+Baju+Thrift+untuk+Tampil+Stylish"
+                                        class="text-decoration-none text-capitalize">Mix & Match Baju
+                                        Thrift untuk Tampil Stylish</a></h3>
+                                <p>Jangan takut bereksperimen! Dapatkan inspirasi untuk memadupadankan hasil buruan
+                                    thrift-mu menjadi
+                                    OOTD yang keren.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="row" id="artikelTambahanWrapper">
+                <div class="col-md-4">
+                    <article class="post-item card border-0 rounded-0">
+                        <div class="image-holder zoom-effect">
+                            <a href="#"><img src="images/barang_kw_asli.jpg" alt="post"
+                                    class="card-img-top" /></a>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                                <div class="meta-date"><a href="#"
+                                        class="text-secondary text-decoration-none">26 Juni 2025</a></div>
+                                <div class="meta-categories"><a href="#"
+                                        class="text-secondary text-decoration-none">Panduan</a></div>
+                            </div>
+                            <div class="post-header">
+                                <h3 class="post-title mt-3"><a href="https://www.google.com/search?q=Membedakan+Barang+Branded+Asli+dan+Palsu"
+                                        class="text-decoration-none text-capitalize">Membedakan Barang
+                                        Branded Asli dan Palsu</a></h3>
+                                <p>Jangan sampai tertipu! Pelajari detail-detail kecil yang membedakan produk asli
+                                    dengan yang palsu
+                                    saat thrifting.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-md-4">
+                    <article class="post-item card border-0 rounded-0">
+                        <div class="image-holder zoom-effect">
+                            <a href="#"><img src="images/uk.jpg" alt="post"
+                                    class="card-img-top" /></a>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                                <div class="meta-date"><a href="#"
+                                        class="text-secondary text-decoration-none">24 Juni 2025</a></div>
+                                <div class="meta-categories"><a href="#"
+                                        class="text-secondary text-decoration-none">DIY</a></div>
+                            </div>
+                            <div class="post-header">
+                                <h3 class="post-title mt-3"><a href=""
+                                        class="text-decoration-none text-capitalize">Panduan Ukuran Baju Thrift dari Luar Negeri</a></h3>
+                                        <p>Ukuran S, M, L dari brand luar seringkali berbeda. Simak panduan ini agar tidak salah pilih ukuran saat belanja online.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="post-item card border-0 rounded-0">
+                        <div class="image-holder zoom-effect">
+                            <a href="#"><img src="images/levis.jpg" alt="post"
+                                    class="card-img-top" /></a>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                                <div class="meta-date"><a href="#"
+                                        class="text-secondary text-decoration-none">23 Juni 2025</a></div>
+                                <div class="meta-categories"><a href="#"
+                                        class="text-secondary text-decoration-none">DIY</a></div>
+                            </div>
+                            <div class="post-header">
+                                <h3 class="post-title mt-3"><a href="https://www.google.com/search?q=Membedakan+Jeans+Levis+Asli+dan+Palsu"
+                                        class="text-decoration-none text-capitalize">Membedakan Jeans Levis
+                                     Asli dan Palsu</a></h3>
+                                    <p>Kenali ciri-ciri detail pada patch, kancing, dan jahitan yang asli agar tidak tertipu saat berburu jeans
+                                        bekas.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="post-item card border-0 rounded-0">
+                        <div class="image-holder zoom-effect">
+                            <a href="#"><img src="images/outfite.jpg" alt="post"
+                                    class="card-img-top" /></a>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                                <div class="meta-date"><a href="#"
+                                        class="text-secondary text-decoration-none">22 Juni 2025</a></div>
+                                <div class="meta-categories"><a href="#"
+                                        class="text-secondary text-decoration-none">DIY</a></div>
+                            </div>
+                            <div class="post-header">
+                                <h3 class="post-title mt-3"><a href="https://www.google.com/search?q=Inspirasi+OOTD:+Gaya+90-an+dengan+Baju+Thrift"
+                                        class="text-decoration-none text-capitalize">Inspirasi OOTD: Gaya 90-an
+                                        dengan Baju Thrift</a></h3>
+                                        <p>Kembali ke era 90-an dengan padu padan keren dari hasil thrifting. Dapatkan inspirasi OOTD yang
+                                         stylish.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="post-item card border-0 rounded-0">
+                        <div class="image-holder zoom-effect">
+                            <a href="#"><img src="images/crop.jpg" alt="post"
+                                    class="card-img-top" /></a>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                                <div class="meta-date"><a href="#"
+                                        class="text-secondary text-decoration-none">21 Juni 2025</a></div>
+                                <div class="meta-categories"><a href="#"
+                                        class="text-secondary text-decoration-none">DIY</a></div>
+                            </div>
+                            <div class="post-header">
+                                <h3 class="post-title mt-3"><a href="https://www.google.com/search?q=DIY:+Sulap+Kemeja+Kebesaran+Jadi+Crop+Top"
+                                        class="text-decoration-none text-capitalize">DIY: Sulap Kemeja Kebesaran
+            Jadi Crop Top</a></h3>
+    <p>Punya kemeja kebesaran? Dengan sedikit kreativitas, ubah jadi crop top yang trendi tanpa perlu mesin
+        jahit.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="post-item card border-0 rounded-0">
+                        <div class="image-holder zoom-effect">
+                            <a href="#"><img src="images/cuci.jpg" alt="post"
+                                    class="card-img-top" /></a>
+                        </div>
+                        <div class="card-body px-0">
+                            <div class="post-meta d-flex text-uppercase gap-3 my-2 align-items-center">
+                                <div class="meta-date"><a href="#"
+                                        class="text-secondary text-decoration-none">19 Juni 2025</a></div>
+                                <div class="meta-categories"><a href="#"
+                                        class="text-secondary text-decoration-none">DIY</a></div>
+                            </div>
+                            <div class="post-header">
+                                <h3 class="post-title mt-3"><a href="https://www.google.com/search?q=Rahasia+Membersihkan+Noda+Membandel+pada+Baju+Thrift"
+                                        class="text-decoration-none text-capitalize">Rahasia Membersihkan Noda
+            Membandel pada Baju Thrift</a></h3>
+    <p>Tinta, kopi, atau saus? Jangan panik! Pelajari cara ampuh menghilangkan berbagai jenis noda dari pakaian
+        bekas.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        </div>
+
+
+        </div>
+    </section>
+
+    <footer id="akun" class="bg-dark text-light section-padding pb-5">
+        <div class="container-lg">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-menu">
+                        {{-- Ganti src ini dengan path logo Anda yang benar menggunakan asset() --}}
+                        <img src="{{ asset('images/logo.svg') }}" width="300" height="190"
+                            alt="logo" />
+                        <div class="social-links mt-3">
+                            <ul class="d-flex list-unstyled gap-2">
+                                <li>
+                                    <a href="https://www.facebook.com/share/g/1DaGWBdpjE/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light"><svg width="16" height="16">
+    <use xlink:href="#facebook"></use>
+</svg></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.tiktok.com/@shutthegoods.co" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-tiktok"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://youtu.be/rOBdlb_amzk?si=TcUg2K9PMOUSF6kI" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light"><svg width="16" height="16">
+    <use xlink:href="#youtube"></use>
+</svg></a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/62895635988235" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+</a>
+                                </li>
+                                <li>
+                                   <a href="https://www.instagram.com/shutthegoods.co" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light"><svg width="16" height="16">
+                                    <use xlink:href="#instagram"></use>
+                                    </svg></a>
+                                </li>
+                                <li>
+                                    <a href="https://shopee.co.id/shutthegoods.co" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-shopify"></i>
+</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6">
+                    <div class="footer-menu">
+                        <h5 class="widget-title text-light">Shutthegoods</h5>
+                        <ul class="menu-list list-unstyled">
+                            <li class="menu-item"><a href="{{ url('/tentang-kami') }}" class="nav-link">Tentang Kami</a></li>
+<li class="menu-item"><a href="{{ url('/syarat-ketentuan') }}" class="nav-link">Syarat & Ketentuan</a></li>
+<li class="menu-item"><a href="{{ url('/karir') }}" class="nav-link">Karir</a></li>
+<li class="menu-item"><a href="{{ url('/blog') }}" class="nav-link">Blog</a></li>
