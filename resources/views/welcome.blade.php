@@ -1314,7 +1314,7 @@
                 <div class="col-md-4">
                     <article class="post-item card border-0 rounded-0">
                         <div class="image-holder zoom-effect">
-                            <a href="#"><img src="images/post-thumbnail-1.jpg" alt="post"
+                            <a href="#"><img src="images/merawat.jpg" alt="post"
                                     class="card-img-top" /></a>
                         </div>
                         <div class="card-body px-0">
@@ -1342,7 +1342,7 @@
                 <div class="col-md-4">
                     <article class="post-item card border-0 rounded-0">
                         <div class="image-holder zoom-effect">
-                            <a href="#"><img src="images/post-thumbnail-2.jpg" alt="post"
+                            <a href="#"><img src="images/tips.jpg" alt="post"
                                     class="card-img-top" /></a>
                         </div>
                         <div class="card-body px-0">
@@ -1366,7 +1366,7 @@
                 <div class="col-md-4">
                     <article class="post-item card border-0 rounded-0">
                         <div class="image-holder zoom-effect">
-                            <a href="#"><img src="images/post-thumbnail-3.jpg" alt="post"
+                            <a href="#"><img src="images/mix.jpg" alt="post"
                                     class="card-img-top" /></a>
                         </div>
                         <div class="card-body px-0">
@@ -1394,7 +1394,7 @@
                 <div class="col-md-4">
                     <article class="post-item card border-0 rounded-0">
                         <div class="image-holder zoom-effect">
-                            <a href="#"><img src="images/post-thumbnail-1.jpg" alt="post"
+                            <a href="#"><img src="images/barang_kw_asli.jpg" alt="post"
                                     class="card-img-top" /></a>
                         </div>
                         <div class="card-body px-0">
@@ -1419,7 +1419,7 @@
                 <div class="col-md-4">
                     <article class="post-item card border-0 rounded-0">
                         <div class="image-holder zoom-effect">
-                            <a href="#"><img src="images/post-thumbnail-2.jpg" alt="post"
+                            <a href="#"><img src="images/uk.jpg" alt="post"
                                     class="card-img-top" /></a>
                         </div>
                         <div class="card-body px-0">
@@ -1430,7 +1430,7 @@
                                         class="text-secondary text-decoration-none">DIY</a></div>
                             </div>
                             <div class="post-header">
-                                <h3 class="post-title mt-3"><a href="https://www.google.com/search?q=Panduan+Ukuran+Baju+Thrift+dari+Luar+Negeri"
+                                <h3 class="post-title mt-3"><a href=""
                                         class="text-decoration-none text-capitalize">Panduan Ukuran Baju Thrift dari Luar Negeri</a></h3>
                                         <p>Ukuran S, M, L dari brand luar seringkali berbeda. Simak panduan ini agar tidak salah pilih ukuran saat belanja online.</p>
                         </div>
@@ -1439,7 +1439,7 @@
                 <div class="col-md-4">
                     <article class="post-item card border-0 rounded-0">
                         <div class="image-holder zoom-effect">
-                            <a href="#"><img src="images/post-thumbnail-2.jpg" alt="post"
+                            <a href="#"><img src="images/levis.jpg" alt="post"
                                     class="card-img-top" /></a>
                         </div>
                         <div class="card-body px-0">
@@ -1462,7 +1462,7 @@
                 <div class="col-md-4">
                     <article class="post-item card border-0 rounded-0">
                         <div class="image-holder zoom-effect">
-                            <a href="#"><img src="images/post-thumbnail-2.jpg" alt="post"
+                            <a href="#"><img src="images/outfite.jpg" alt="post"
                                     class="card-img-top" /></a>
                         </div>
                         <div class="card-body px-0">
@@ -1486,7 +1486,7 @@
                 <div class="col-md-4">
                     <article class="post-item card border-0 rounded-0">
                         <div class="image-holder zoom-effect">
-                            <a href="#"><img src="images/post-thumbnail-2.jpg" alt="post"
+                            <a href="#"><img src="images/crop.jpg" alt="post"
                                     class="card-img-top" /></a>
                         </div>
                         <div class="card-body px-0">
@@ -1509,7 +1509,7 @@
                 <div class="col-md-4">
                     <article class="post-item card border-0 rounded-0">
                         <div class="image-holder zoom-effect">
-                            <a href="#"><img src="images/post-thumbnail-2.jpg" alt="post"
+                            <a href="#"><img src="images/cuci.jpg" alt="post"
                                     class="card-img-top" /></a>
                         </div>
                         <div class="card-body px-0">
@@ -1602,11 +1602,11 @@
                     <div class="footer-menu">
                         <h5 class="widget-title text-light">Untuk Penjual</h5>
                         <ul class="menu-list list-unstyled">
-                            <li class="menu-item"><a href="#" class="nav-link">Mulai Berjualan</a></li>
-                            <li class="menu-item"><a href="#" class="nav-link">Pusat Bantuan Penjual</a>
+                            <li class="menu-item"><a href="{{ url('/mulai-berjualan') }}" class="nav-link">Mulai Berjualan</a></li>
+                            <li class="menu-item"><a href="{{ url('/pusat-bantuan-penjual') }}" class="nav-link">Pusat Bantuan Penjual</a>
                             </li>
-                            <li class="menu-item"><a href="#" class="nav-link">Tips & Trik Jualan</a></li>
-                            <li class="menu-item"><a href="#" class="nav-link">Kebijakan Penjual</a></li>
+                            <li class="menu-item"><a href="{{ url('/tips-jualan') }}" class="nav-link">Tips & Trik Jualan</a></li>
+                            <li class="menu-item"><a href="{{ url('/kebijakan-penjual') }}" class="nav-link">Kebijakan Penjual</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1615,12 +1615,12 @@
                     <div class="footer-menu">
                         <h5 class="widget-title text-light">Layanan Pelanggan</h5>
                         <ul class="menu-list list-unstyled">
-                            <li class="menu-item"><a href="#" class="nav-link">FAQ</a></li>
-                            <li class="menu-item"><a href="#" class="nav-link">Kontak Kami</a></li>
-                            <li class="menu-item"><a href="#" class="nav-link">Kebijakan Privasi</a></li>
-                            <li class="menu-item"><a href="#" class="nav-link">Panduan Transaksi Aman</a>
+                            <li class="menu-item"><a href="{{ url('/faq') }}" class="nav-link">FAQ</a></li>
+                            <li class="menu-item"><a href="{{ url('/kontak') }}" class="nav-link">Kontak Kami</a></li>
+                            <li class="menu-item"><a href="{{ url('/kebijakan-privasi') }}" class="nav-link">Kebijakan Privasi</a></li>
+                            <li class="menu-item"><a href="{{ url('/panduan-transaksi-aman') }}" class="nav-link">Panduan Transaksi Aman</a>
                             </li>
-                            <li class="menu-item"><a href="#" class="nav-link">Lacak Pesanan</a></li>
+                            <li class="menu-item"><a href="{{ url('/lacak-pesanan') }}" class="nav-link">Lacak Pesanan</a></li>
                         </ul>
                     </div>
                 </div>

@@ -33,6 +33,20 @@ Route::get('/karir', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+
+Route::get('/mulai-berjualan', function () { return view('mulai-berjualan'); });
+Route::get('/pusat-bantuan-penjual', function () { return view('pusat-bantuan-penjual'); });
+Route::get('/tips-jualan', function () { return view('tips-jualan'); });
+Route::get('/kebijakan-penjual', function () { return view('kebijakan-penjual'); });
+
+// Rute untuk halaman "Layanan Pelanggan" & Legal
+Route::get('/faq', function () { return view('faq'); });
+Route::get('/kontak', function () { return view('kontak'); });
+Route::get('/kebijakan-privasi', function () { return view('kebijakan-privasi'); });
+Route::get('/panduan-transaksi-aman', function () { return view('panduan-transaksi-aman'); });
+Route::get('/lacak-pesanan', function () { return view('lacak-pesanan'); });
+Route::get('/syarat-ketentuan', function () { return view('syarat-ketentuan'); });
+
 // ===================================
 // GRUP RUTE ADMIN
 // ===================================
