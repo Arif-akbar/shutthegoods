@@ -65,4 +65,4 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
 // Catatan: Anda memiliki dua definisi untuk rute '/', yang atas akan digunakan.
 // Route::get('/', [HomeController::class, 'index'])->name('home');
 
-require __DIR__.'/auth.php';
+require __DIR__.'/auth.php'
